@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = ['AWHBGaudeMapBus.framework']
   s.source_files = 'AWHBGaudeMapBus.framework/Headers/*h'
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
-  #s.static_framework = true
+  s.static_framework = true
   
   s.swift_version='5.0'
 
@@ -175,8 +175,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   s.dependency 'AMap3DMap'
   s.dependency 'AMapNavi'
