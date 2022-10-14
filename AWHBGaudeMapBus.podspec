@@ -82,8 +82,8 @@ Pod::Spec.new do |s|
   #  部署目标。您可以选择在平台之后包含目标。
   #
 
-  s.platform     = :ios
-  # s.platform     = :ios, "9.0"
+  #s.platform     = :ios
+  s.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   s.ios.deployment_target = "13.0"
