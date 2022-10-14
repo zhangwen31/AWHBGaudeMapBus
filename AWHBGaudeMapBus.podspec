@@ -123,7 +123,9 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = ['AWHBGaudeMapBus.framework']
   s.source_files = 'AWHBGaudeMapBus.framework/Headers/*h'
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
-  s.static_framework = true
+  #s.static_framework = true
+  
+  s.swift_version='5.0'
 
 
   # ――― Resources 资源――――――――――――――――――――――――――――――――――― #
