@@ -178,10 +178,15 @@ Pod::Spec.new do |s|
   #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  s.dependency 'AMap3DMap'
-  s.dependency 'AMapNavi'
-  s.dependency 'AMapSearch'
-  s.dependency 'AMapLocation'
+  #s.dependency 'AMap3DMap'
+  #s.dependency 'AMapNavi'
+  #s.dependency 'AMapSearch'
+  #s.dependency 'AMapLocation'
+  
+  s.dependency 'AMap3DMap', '6.9.0'
+  s.dependency 'AMapNavi', '6.9.1'
+  s.dependency 'AMapSearch', '6.9.0'
+  s.dependency 'AMapLocation', '2.6.2'
   
   s.dependency 'UMCommon'
   s.dependency 'UMDevice'
