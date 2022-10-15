@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHBGaudeMapBus"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of AWHBGaudeMapBus."
 
   # This description is used to generate tags and improve search results.
@@ -187,11 +187,6 @@ Pod::Spec.new do |s|
   s.dependency 'AMapNavi', '6.9.1'
   s.dependency 'AMapSearch', '6.9.0'
   s.dependency 'AMapLocation', '2.6.2'
-  
-  s.dependency 'UMCommon'
-  s.dependency 'UMDevice'
-  s.dependency 'UMShare/UI'
-  s.dependency 'UMShare/Social/WeChat'
   
   s.dependency 'AWHBoneRuntime'
   s.dependency 'AWHBoneRouter'
