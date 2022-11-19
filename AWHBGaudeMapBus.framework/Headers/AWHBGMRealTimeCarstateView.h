@@ -8,12 +8,13 @@
 #import <UIKit/UIKit.h>
 #import <AWHBBasicBusiness/AWHBBCarModel.h>
 
-typedef void (^NetworkRequestBlock)(NSString * title);
 NS_ASSUME_NONNULL_BEGIN
+
+typedef void (^AWHBGMNetworkRequestBlock)(NSString * title);
 
 @interface AWHBGMRealTimeCarstateView : UIView
 @property(nonatomic,strong)AWHBBCarModel *model;
-@property(nonatomic,copy)NetworkRequestBlock NetworkRequestBlock;
+@property(nonatomic,copy)AWHBGMNetworkRequestBlock NetworkRequestBlock;
 @end
 
 NS_ASSUME_NONNULL_END
