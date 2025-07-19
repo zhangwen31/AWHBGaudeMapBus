@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHBGMTrackingCarViewController : AWHBBBaseViewController
+@property (nonatomic, assign) BOOL isStartTracking;
 -(void)getCarModel:(AWHBBCarModel *)model;
 @end
 

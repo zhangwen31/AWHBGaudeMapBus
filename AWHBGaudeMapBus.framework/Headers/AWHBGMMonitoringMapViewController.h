@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHBGMMonitoringMapViewController : AWHBBBaseViewController
 
+@property(nonatomic, assign)AWHBBBusinessLoginModeType type;
+
+- (void)setupType:(NSNumber *)type;
 
 @end
 

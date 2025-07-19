@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface AWHBGMMonomerMonitoringMapViewController : AWHBBBaseViewController
 @property (nonatomic, strong) AMapNaviDriveManager *driveManager;
 @property (nonatomic, strong) AMapNaviDriveView *driveView;
+- (void)carDataRefresh;
 @end
 
 NS_ASSUME_NONNULL_END

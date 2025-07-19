@@ -8,17 +8,23 @@
 #import <AWHBBasicBusiness/AWHBBBaseViewController.h>
 #import <AWHBPublicBusiness/AWHBPBCountDataModel.h>
 #import <AWHBBasicBusiness/AWHBBCarModel.h>
+#import <AWHBPublicBusiness/AWHVPCarVideoModel.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHBGMHistoryPathDetailsViewController : AWHBBBaseViewController
 
 /** */
 @property(nonatomic,copy)NSString *plate;
+@property(nonatomic,strong)NSString *carId;
 @property(nonatomic,strong)NSMutableArray *pathArray;
 @property(nonatomic,strong)AWHBPBCountDataModel *countDataModel;
 @property(nonatomic,strong)NSMutableArray *alarmDataArray;
 @property(nonatomic,strong)NSMutableArray *stopDataArray;
 @property(nonatomic,strong)NSMutableArray *overspeedDataArray;
+@property(nonatomic,strong)NSMutableArray *runDataArray;
+/// 行程
+@property(nonatomic,strong)NSMutableArray *tripDataArray;
 //速度阈值
 @property (nonatomic, assign) CGFloat speedThreshold;
 
@@ -27,6 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSString *startTimeStr;
 //分享时候需要  结束时间
 @property(nonatomic,strong)NSString *endTimeStr;
+/// 视频通道
+@property(nonatomic,strong)NSArray<AWHVPCarVideoModel *> *videoArray;
 
 
 @end

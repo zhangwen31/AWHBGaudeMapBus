@@ -52,10 +52,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readwrite,strong) UILabel *countLab;
 @property (nonatomic, strong) UILabel *countLabel;
 @property (nonatomic, strong) UILabel *speedLab;
+@property (nonatomic, strong) UILabel *numLab;
 @property(nonatomic,assign)BOOL showBtn;
 @property(nonatomic,copy)ReturnBtnTitleBlock ReturnBtnTitleBlock;
 - (void)setModel:(AWHBBCarModel *)model;
 -(void)setupLabel;
+-(void)imageExpandAnimation;
 
 @end
 

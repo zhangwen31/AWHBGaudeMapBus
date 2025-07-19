@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (assign, nonatomic) NSInteger count;
 @property (nonatomic, strong) NSMutableArray *pois;
+@property (nonatomic, strong) NSString *carIds;
 
 - (id)initWithCoordinate:(CLLocationCoordinate2D)coordinate count:(NSInteger)count;
 

@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)buildTreeWithPOIs:(NSArray *)pois;
 - (void)clean;
 
-- (NSArray *)clusteredAnnotationsWithinMapRect:(MAMapRect)rect withZoomScale:(double)zoomScale andZoomLevel:(double)zoomLevel;
+- (NSArray *)clusteredAnnotationsWithinMapRect:(MAMapRect)rect withZoomScale:(double)zoomScale andZoomLevel:(double)zoomLevel carId:(NSString *)carId;
 
 @end
 

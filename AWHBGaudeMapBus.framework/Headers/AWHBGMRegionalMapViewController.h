@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSArray *carListArr;
 @property(nonatomic,copy)NSString *tabOpinion;
 @property(nonatomic,copy)NSString *titleStr;
+@property(nonatomic,copy)NSString *regionId;
 
 @end
 

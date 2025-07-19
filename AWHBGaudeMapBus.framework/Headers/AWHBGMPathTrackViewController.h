@@ -11,11 +11,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHBGMPathTrackViewController : UIViewController
 @property(nonatomic,strong)NSMutableArray *pathArray;
+@property(nonatomic,strong)NSMutableArray *stopDataArray;
 @property(nonatomic,strong)AWHBPBCountDataModel *countDataModel;
 @property(nonatomic,copy)NSString *startAddr;
 @property(nonatomic,copy)NSString *startTime;
 @property(nonatomic,copy)NSString *endTime;
 @property(nonatomic,copy)NSString *endAddr;
+- (void)stopPlay;
 @end
 
 NS_ASSUME_NONNULL_END

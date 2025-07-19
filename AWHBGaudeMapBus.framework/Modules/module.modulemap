@@ -1,6 +1,6 @@
 framework module AWHBGaudeMapBus {
   umbrella header "AWHBGaudeMapBus.h"
-
   export *
+
   module * { export * }
 }
