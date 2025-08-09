@@ -225,7 +225,7 @@ Pod::Spec.new do |s|
   s.dependency 'MJExtension'
   s.dependency 'YYImage'
   s.dependency 'AFNetworking'
-  s.dependency 'Charts'
+  s.dependency 'DGCharts'
   s.dependency 'MJRefresh'
   s.dependency "AWHBoneResources"
   s.dependency "IQKeyboardManager"
