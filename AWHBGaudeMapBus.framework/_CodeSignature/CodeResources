@@ -11384,6 +11384,14 @@
 		<data>
 		l04ztei9XGdHr+WotqrfcushCxQ=
 		</data>
+		<key>Headers/AWHBGMMaintenanceMAAnnotation.h</key>
+		<data>
+		j6VpqROvZQqtfrC/FXDC+loxEos=
+		</data>
+		<key>Headers/AWHBGMMaintenancennotationView.h</key>
+		<data>
+		h5bLrw69ZbvDARjUNMkx1GqY6xE=
+		</data>
 		<key>Headers/AWHBGMMapRimListViewController.h</key>
 		<data>
 		P2aJQ8evt0lU9qrFWTHgpE+MWog=
@@ -11459,6 +11467,10 @@
 		<key>Headers/AWHBGMTrackingCarViewController.h</key>
 		<data>
 		XhV7xhdsXu0ENM1v+g/BAMWr+Og=
+		</data>
+		<key>Headers/AWHBGMUserLocationAnnotationView.h</key>
+		<data>
+		ZU2B6/1Sul/vrrLHeHPhMwRbfAA=
 		</data>
 		<key>Headers/AWHBGMVehicleFortificationViewController.h</key>
 		<data>
@@ -42633,6 +42645,28 @@
 			YdDx5V4XirsNoX1hpgUtpAVUyNh1zdKpPNBD2YQzWnM=
 			</data>
 		</dict>
+		<key>Headers/AWHBGMMaintenanceMAAnnotation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j6VpqROvZQqtfrC/FXDC+loxEos=
+			</data>
+			<key>hash2</key>
+			<data>
+			RcvxtNncEsN0sF/ht26PXeCuFAbAgOR/cTSbQLeDUzA=
+			</data>
+		</dict>
+		<key>Headers/AWHBGMMaintenancennotationView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h5bLrw69ZbvDARjUNMkx1GqY6xE=
+			</data>
+			<key>hash2</key>
+			<data>
+			0Kxfpqwf+nT0szb/WDSptr1g837jmGIMY6fZ0DwRjrU=
+			</data>
+		</dict>
 		<key>Headers/AWHBGMMapRimListViewController.h</key>
 		<dict>
 			<key>hash</key>
@@ -42840,6 +42874,17 @@
 			<key>hash2</key>
 			<data>
 			ZhUGtIzjOQK0tyGtqk+/f+g7mAEfLEfITALFp2JP0WM=
+			</data>
+		</dict>
+		<key>Headers/AWHBGMUserLocationAnnotationView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZU2B6/1Sul/vrrLHeHPhMwRbfAA=
+			</data>
+			<key>hash2</key>
+			<data>
+			nTzaJnz38/4TTEnA3+zymbAxS1UIXA+SMDaaVFWCOoI=
 			</data>
 		</dict>
 		<key>Headers/AWHBGMVehicleFortificationViewController.h</key>
