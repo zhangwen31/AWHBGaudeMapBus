@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否一致隐藏车辆卡片
 @property(nonatomic,assign)BOOL isHiddenCustomView;
 
+@property(nonatomic,assign) CGFloat maxWidth;
+
 @property(nonatomic, copy) void (^fullScreenClickBlock)(BOOL isFullScreen);
 
 + (AWHBGMMonomerMonitoringMapView *)shareIsNoBottomSpace:(BOOL)isNoBottomSpace;
