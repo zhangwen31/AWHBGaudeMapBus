@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)AWHBBCarModel *model;
 /// 视频通道
 @property(nonatomic,strong)NSArray<AWHVPCarVideoModel *> *videoArray;
+/// 选择的停车点
+- (void)selectStopDataModel:(AWHBPBStopDataModel *)model;
 
 @end
 

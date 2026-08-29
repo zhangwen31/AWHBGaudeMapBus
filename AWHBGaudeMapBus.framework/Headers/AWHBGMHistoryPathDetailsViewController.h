@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSString *endTimeStr;
 /// 视频通道
 @property(nonatomic,strong)NSArray<AWHVPCarVideoModel *> *videoArray;
+@property (nonatomic, copy) NSString *filter;//静止点
+@property (nonatomic, copy) NSString *filterInvalid;//过滤无效定位
+@property (nonatomic, copy) NSString *filterAppend;//过滤补报
 
 
 @end

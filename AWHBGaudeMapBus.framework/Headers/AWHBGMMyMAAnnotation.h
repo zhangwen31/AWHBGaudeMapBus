@@ -9,6 +9,7 @@
 #import <MAMapKit/MAMapKit.h>
 
 #import <AWHBBasicBusiness/AWHBBCarModel.h>
+#import <AWHBPublicBusiness/AWHBPBSurroundingVehiclesModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *subtitle;
 
 @property (nonatomic, copy) AWHBBCarModel *model; //大头针对应的model
+@property (nonatomic, strong) AWHBPBSurroundingVehiclesModel *surroundingModel; //大头针对应的周边车辆model
 @property (nonatomic, assign) NSInteger index;
 
 @property (assign, nonatomic) NSInteger count;

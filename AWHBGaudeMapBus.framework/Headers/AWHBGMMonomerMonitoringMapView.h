@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign)BOOL isHiddenCustomView;
 
 @property(nonatomic,assign) CGFloat maxWidth;
+/// 是否不能使用对讲
+@property (nonatomic, assign) BOOL isNoUseIntercom;
 
 @property(nonatomic, copy) void (^fullScreenClickBlock)(BOOL isFullScreen);
 

@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHBGMShowLocationView : UIView
 
+@property (nonatomic, assign) CGFloat zoomLevel;
+
 @end
 
 NS_ASSUME_NONNULL_END

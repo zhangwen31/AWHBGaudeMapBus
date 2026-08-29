@@ -8,6 +8,7 @@
 #import <MAMapKit/MAMapKit.h>
 #import <AWHBBasicBusiness/AWHBBCarModel.h>
 #import <AWHBPublicBusiness/AWHBPBCarAggregatedListView.h>
+#import <AWHBPublicBusiness/AWHBPBSurroundingVehiclesModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,6 +18,7 @@ typedef void(^AWHBGMReturnBtnCarBlock)(AWHBBCarModel *model);
 @property (nonatomic, assign) NSUInteger count;
 @property (nonatomic, strong) NSString *carIds;
 @property (nonatomic, strong) AWHBBCarModel *model;
+@property (nonatomic, strong) AWHBPBSurroundingVehiclesModel *surroundingModel;
 @property (nonatomic, readwrite,strong) UILabel *countLab;
 @property (nonatomic, strong) UILabel *countLabel;
 @property (nonatomic, strong) UILabel *speedLab;
