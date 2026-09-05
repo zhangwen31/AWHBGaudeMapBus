@@ -12057,6 +12057,14 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>TZImagePickerControllerPrivacy.bundle/Info.plist</key>
+		<data>
+		N++l0wcgSXCfhQMweIHPEPDktj4=
+		</data>
+		<key>TZImagePickerControllerPrivacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		BCLkdg5nJahN5p9U23zEYA9C2qc=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -32949,6 +32957,20 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>TZImagePickerControllerPrivacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P1EAFeR4aaOqVfXGCbE+R3UOQh77dZIHXN38AZJRlYQ=
+			</data>
+		</dict>
+		<key>TZImagePickerControllerPrivacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vquOdOj3NX7iBYy0YqUwWYxWv54zKqhR0ZGUxuaRSu0=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
